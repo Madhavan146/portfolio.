@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-l from-yellow-100 via-orange-100 to-pink-100 font-serif">
+
+  <div class="cursor-pointer flex p-4 flex-row justify-evenly items-center font-bold drop-shadow-md bg-gradient-to-l from-orange-400 to-rose-400 bg-clip-text text-transparent">
+    <h2><a href="#home">Home</a></h2>
+    <h2>About</h2>
+    <h2>Skill</h2>
+    <h2>Experience</h2>
+  </div>
+
+  <hr class="bg-white bg-clip-border text-transparent" />
+
+  <div class="p-10 font-bold drop-shadow-lg bg-gradient-to-l from-orange-400 to-rose-400 bg-clip-text text-transparent">
+    <center>Hello, I'm Madhavan 🚀</center>
+    <center>A passionate Frontend Developer crafting seamless digital experiences.</center>
+    <center>Explore my work and discover how code meets creativity 💻🎨</center>
+    <img class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]" src="madhavan.png" alt="Madhavan's photo" />
+  </div>
+
+  <div class="flex flex-col m-15 md:flex-row justify-evenly">
+    <div class="m-6 h-90 cursor-pointer border-orange-400 rounded font-bold md:h-84 lg:h-56 md:w-115 border-2 hover:bg-gradient-to-l from-orange-300 to-pink-300 hover:shadow-md transition-all hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)] duration-300">
+      <center>About</center><br />
+   I'm Madhavan, a passionate 3rd-year Computer Science student at Anjalai Ammal Mahalingam Engineering College. I have a strong foundation in programming, with proficiency in C, HTML, CSS, JavaScript, and Tailwind CSS. Through hands-on projects and internships, I've developed a keen interest in frontend development and continue to expand my skills in building responsive, user-friendly web interfaces. I believe in continuous improvement and strive to grow through every opportunity I take on.
+    </div>
+    <div class="m-6 h-90 cursor-pointer border-orange-400 rounded font-bold md:h-84 lg:h-56 md:w-115 border-2 hover:bg-gradient-to-l from-orange-300 to-pink-300 hover:shadow-md transition-all hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)] duration-300">
+      <center>Skills</center><br />
+     Proficient in C programming language with a strong understanding of fundamental concepts and problem-solving techniques. Experienced in frontend technologies including HTML, CSS, JavaScript, and Tailwind CSS, with a focus on building responsive and visually appealing web interfaces. Continuously learning and exploring new tools and frameworks to stay updated with the latest trends in web development.
+    </div>
+  </div>
+
+  <div class="flex flex-col m-15 md:flex-row justify-evenly">
+    <div class="m-6 cursor-pointer border-orange-400 rounded font-bold md:h-105 lg:h-66 md:w-115 border-2 hover:bg-gradient-to-l from-orange-300 to-pink-300 hover:shadow-md transition-all hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)] duration-300">
+      <center>Experience</center><br />
+      I successfully completed a 30-day internship focused on Frontend Development at CodeAlpha. During this period, I accomplished all assigned monthly tasks and gained hands-on experience with HTML, CSS, JavaScript, and Tailwind CSS. This internship not only strengthened my technical skills but also enhanced my understanding of responsive design and modern UI practices. As recognition of my performance, I was awarded a certificate of completion along with a letter of recommendation.
+    </div>
+    <div class="m-6 cursor-pointer border-orange-400 rounded font-bold md:h-105 lg:h-66 md:w-115 border-2 hover:bg-gradient-to-l from-orange-300 to-pink-300 hover:shadow-md transition-all hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)] duration-300">
+      <center>Certificate & License</center><br />
+      I earned a JavaScript certification from Udemy, where I completed a comprehensive course covering core concepts such as DOM manipulation, ES6 features, and asynchronous programming. Additionally, I received a Python certification from Cisco Webex, which focused on foundational programming skills including syntax, data structures, and practical applications in automation and scripting.
+    </div>
+  </div>
+
+  <center>
+    <h1 class="font-bold">Course Certificate Gallery</h1>
+    <div class="gal">
+      <img src="udem1.jpeg" id="ok" class="h-80 m-6 hover:scale-110 rounded cursor-pointer hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]" alt="Certificate" />
+      <button class="rounded-full bg-blue-500 m-6 h-5 w-19 text-white hover:bg-blue-700 cursor-pointer active:scale-90" onclick="onto1()"> Previous </button>
+      <button class="rounded-full bg-blue-500 m-6 h-5 w-19 text-white hover:bg-blue-700 cursor-pointer active:scale-90" onclick="onto()"> Next </button>
+    </div>
+  </center>
+
+  <center>Details (Click the below image)</center>
+  <div class="sm:h-100 flex flex-col md:flex-row">
+    <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="leet.png" alt="LeetCode" />
+      <center><a href="https://leetcode.com/u/U78C3HtBha/">LeetCode</a></center>
+    </div>
+    <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="github.png" alt="Github" />
+      <center><a href="https://github.com/Madhavan146/LeetCode">github</a></center>
+    </div>
+    <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="linkedin.png" alt="linkedin" />
+      <center><a href="www.linkedin.com/in/madhavan--m">linkedin</a></center>
+    </div>
+    <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="netlify.png" alt="netlify" />
+      <center><a href="https://app.netlify.com/teams/hariharan22446688/projects">netlify</a></center>
+    </div>
+  </div>
+<center class="text-xl">Contact</center>
+<div class="sm:h-100 flex flex-col md:flex-row">
+ <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="whatsapp.jpeg" alt="Whatsapp" />
+    <center>  <a href="tel:9600496137" class="text-black hover:underline">Whatsapp</a>
+</center>
+ </div>
+ <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="gmails.jpeg" alt="G-mail" />
+      <center><a href="mailto:hariharan22446688@gmail.com" class="text-black hover:underline">📧 Email</a></center>
+ </div>
+ <div class="hover:bg-amber-200 w-28 h-38 object-cover border-orange-500 rounded-full cursor-pointer m-6 mx-auto transition-all duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_6px_8px_rgba(217,119,6,0.5)]">
+      <img src="linkedin.png" alt="linkedin" />
+      <center><a href="www.linkedin.com/in/madhavan--m">linkedin</a></center>
+ </div>
+</div>
+
+
+</body>
+
+<script>
+let i = 0;
+const a = ["udem1.jpeg", "udem2.jpeg", "udem3.jpeg", "udem4.jpeg"];
+const s = a.length;
+
+function onto() {
+  i = (i + 1) % s; // Loop forward
+  document.getElementById("ok").src = a[i];
+}
+
+function onto1() {
+  i = (i - 1 + s) % s; // Loop backward
+  document.getElementById("ok").src = a[i];
+}
+</script>
+
+</html>
